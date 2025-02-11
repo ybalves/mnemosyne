@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{ /* significa todas as tags */
+* {
+    /* significa todas as tags */
 
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
-font-family: "jost";
+    font-family: "jost";
 }
 
 .app-header {
 
-/* estilizacao aqui dentro */
-height: 80px;
+    /* estilizacao aqui dentro */
+    height: 80px;
 
-display: flex; /* muda a orientaçao para lado-a-lado*/
-align-items: center; /* deixa o texto centralizado verticalmente */
-justify-content: space-between; /* joga os elementos para o lado */
+    display: flex;
+    /* muda a orientaçao para lado-a-lado*/
+    align-items: center;
+    /* deixa o texto centralizado verticalmente */
+    justify-content: space-between;
+    /* joga os elementos para o lado */
 
-padding-left: 80px;
-padding-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 
-box-shadow: 0px 2px 4px #464646;
+    box-shadow: 0px 2px 4px #464646;
 
 
 }
@@ -28,15 +32,33 @@ box-shadow: 0px 2px 4px #464646;
 .links a {
 
     font-size: 30px;
-    text-decoration: nome; /*tira o traço de baixo da fonte */
+    text-decoration: nome;
+    /*tira o traço de baixo da fonte */
     color: #464646;
-    
+
     padding-left: 35px;
 }
 
 
 .app-main {
 
-padding: 80px;
+    padding: 80px;
 
+}
+
+.memory-card {
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+.memory-card .image{
+
+
+height: 300px;
+width: 300px;
+
+background-image: url("../assets/imgs/bg1.png");
+background-size: cover;
 }
