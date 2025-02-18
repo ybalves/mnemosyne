@@ -49,3 +49,4 @@ console.log(n1);
 
 console.log(parseInt(n1));
 console.log(parseFloat("40"));
+
