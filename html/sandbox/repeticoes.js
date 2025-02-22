@@ -5,8 +5,15 @@ for (let contador = 1; contador <= 10; contador++) {
     console.log("contagem", contador);
  }
 
+let divdelogs = document.querySelector(".logs"); //Busca um elemento da tela.
+
+let paragrafo = document.createElement("p");
+
+paragrafo.innerHTML = "Exercicio 01 de repeticao executado.";
+
+divdelogs.appendChild(paragrafo);
 }
-exercicio01();
+
 
 
 //let contador = 1;
@@ -16,15 +23,15 @@ exercicio01();
 //contador++
 //}
 
-function exercicio02 () {
-let numero = prompt("Digite um numero para ver sua tabuada:");
-let resultado;
-}
+// function exercicio02 () {
+// let numero = prompt("Digite um numero para ver sua tabuada:");
+// let resultado;
+// }
 
-for (let contador = 1; contador <= 10; contador++) {
-console.log(`${numero} x ${contador} = ${numero * contador}`);
-}
-exercicio02();
+// for (let contador = 1; contador <= 10; contador++) {
+// console.log(`${numero} x ${contador} = ${numero * contador}`);
+// }
+
 
 //exercício 2
 //let numero = prompt("Digite um numero:");

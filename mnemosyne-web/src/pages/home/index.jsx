@@ -1,9 +1,26 @@
+import { useEffect } from "react";
 import Header from "../../components/header";
 import "./home.css";
-
+import memory from "../../services/memory";
 
 const Home = () => {
-    return (
+
+useEffect(() => {
+       //Este mètodo è executado toda vez que a tela inicia.
+    
+        getMemorieslist();
+
+    },[]);
+
+    const getMemorieslist = async () => {
+
+    const lista = await memory.getMemories();
+
+    console.log("Lista: ", lista);
+
+    }
+
+return (
         <>
            
            <Header></Header>
