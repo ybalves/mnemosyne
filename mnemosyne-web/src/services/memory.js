@@ -10,4 +10,4 @@ return memories;
 
 }
 
-export default {getMemories};
+export default { getMemories };
