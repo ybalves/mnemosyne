@@ -12,6 +12,8 @@ useEffect(() => {
     
         getMemorieslist();
 
+        document.title = "tela de Detalhes";
+
     },[]);
 
     const getMemorieslist = async () => {
